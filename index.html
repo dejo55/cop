@@ -1,64 +1,55 @@
 <!doctype html>
-
 <html>
 <head>
-<title>TABLE</title>
+<title style="font-style:italic;">userform</title>
 </head>
-<body> 
-<p style=" font-family: Lucida Console, Courier New;">My life is full of...</p>
-<p style="front:atlantis;">Front courier</p>
 
+<body style="background-color:rgb(214, 172, 179);">
+	<form action="/action_page.php" method="post">
+<center>
+<table  border="3" cellpadding="8" style="background-color: white; width: 700px;height: 600px;">
+<tr style="background-color:rgb(235, 226, 111);"> <th colspan="2" style="color:red;">User Form</th> </tr>
+<tr style="background-color:rgb(17, 178, 228);"> <td>Enter name</td>      <td > <input style="background-color:lightgreen;" type="text" id="fname" name="fname"></td> </tr>
+<tr  style="background-color:rgb(17, 178, 228);"> <td>Enter Password</td>     <td><input style="background-color:lightgreen;" type="password" id="pwd" name="pwd"></td> </tr>
+<tr  style="background-color:rgb(17, 178, 228);"> <td>Enter address </td> <td> <textarea rows="4" cols="8" style="margin-left:100px"></textarea>
 
+</td></tr><br>
 
-<style>
+<tr  style="background-color:rgb(17, 178, 228);"> <td>Select Game</td>      <td><input type="checkbox" name="game" id="game">Hockey<br><input type="checkbox" name="game" id="game">Football<br><input type="checkbox" name="game" id="game">Badminton<br><input type="checkbox" name="game" id="game">Cricket<br><input type="checkbox" name="gmae" id="game">Volleyball </td> </tr>
+<tr  style="background-color:rgb(17, 178, 228);"> <td>Gender</td>       <td><input type="radio" id="male" name="gender" value="male">Male
+<input type="radio" id="female name="gender" value="female">Female</td> </tr>
+<tr  style="background-color:rgb(17, 178, 228);"> <td>Select ur age</td>       <td><select style="background-color:lightgreen;">
+<option>select</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<div>copy something here and post it.</div>
 
- table {border-spacing:20px;}
+</select></td> </tr>
+<tr  style="background-color:rgb(17, 178, 228);"><td colspan="2"><center><input style="background-color:lightgreen;" type="file" name="file" id="file"></center></td>
 
-</style>
+<tr  style="background-color:rgb(17, 178, 228);">
+	<td colspan="2"><center>
+<button style="background-color:lightgreen;" type="button" onclick="alert('Hello World!')" >Click Me!</button>
 
-<table style="width:100%" border="1">
-
-<tr style="margin:20px;" >
-<th>cars</th>
-<th>bike</th>
-<th>Food</th>
-<th>city</th>
-
-</tr>
-<tr>
-<td>AMG63</td>
-<td>RObbv.v</td>
-<td>jolloth</td>
-<td>Accra</td>
-</tr>
-
-<tr>
-<td>BMW</td>
-<td>R.P.G</td>
-<td>Rice</td>
-<td>HO</td>
-
-</tr>
-
-<tr>
-<td>Volva</td>
-<td>Sanya</td>
-<td>Plantain</td>
-<td>kumasi</td>
-</tr>
-
-<tr>
-<td>Fortuner</td>
-<td>Access</td>
-<td>Fufu</td>
-<td>Aflao</td>
+<button style="background-color:lightgreen;">submit</button>
+	<input type="reset"   value="reset" style="background-color:lightgreen;"></center></td>
 </tr>
 
 
 
 
-</table>
+</table> 
+</center>
+</form>
+
 
 </body>
+
+
+
 
 </html>
